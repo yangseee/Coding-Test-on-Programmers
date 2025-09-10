@@ -1,0 +1,13 @@
+//https://school.programmers.co.kr/learn/courses/30/lessons/120814
+
+#include <stdio.h>
+#include <stdbool.h>
+#include <stdlib.h>
+
+int solution(int n) {
+    int answer = 1;
+    int r = n / 7;
+    if(n % 7 == 0) r = r;
+    else r += 1;
+    return answer = r;
+}
